@@ -5,13 +5,17 @@ One of the most famous Command Line Shells is the BASH (Bourne Again SHell) used
 
 # Basic Commands
 
-`echo` is used to write its arguments to a standard output.
-`>` symbol is used to overwrite a file with the output of the preceeding command.
-`>>` symbol is used to add contents in a file.
-`#` is used for commenting.
+* `echo` is used to write its arguments to a standard output.
+* `>` symbol is used to overwrite a file with the output of the preceeding command.
+* `>>` symbol is used to add contents in a file.
+* `#` is used for commenting.
 
 e.g. writing a shell script through the terminal:
-```
+```shell
 echo '#!/bin/bash' > first-script.sh        # Overwrites the file with the output of the preceeding command.
 echo 'echo Hello, World!' >> first-script.sh     # Adds "Hello world" in the file.
+chmod a+rx first-script.sh
+./first-script.sh
 ```
+
+* `chmod a+rx <script_name>` or `chmod 775 <script_name>` can be used. This is used to make the file executable.
