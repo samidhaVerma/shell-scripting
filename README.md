@@ -18,15 +18,15 @@ chmod a+rx first-script.sh
 ```
 
 * `chmod a+rx <script_name>` or `chmod 755 <script_name>` can be used. This is used to make the file executable.
-* The numbers after `chmod` define who can do what with the file. It represents the Owner, the Group and Everyone else. What the numbers mean:
- 7 : Read, Write & Execute
- 6 : Read & Write
- 5 : Read & Execute
- 4 : Read Only
- 3 : Write & Execute
- 2 : Write Only
- 1 : Execute Only
- 0 : None
+* The numbers after `chmod` define who can do what with the file. It represents the Owner, the Group and Everyone else. What the numbers mean: <br/>
+ 7 : Read, Write & Execute <br/>
+ 6 : Read & Write <br/>
+ 5 : Read & Execute <br/>
+ 4 : Read Only <br/>
+ 3 : Write & Execute <br/>
+ 2 : Write Only <br/>
+ 1 : Execute Only <br/>
+ 0 : None <br/>
 
 # Variables
 * The shell treats all variables as strings. When declaring a variable, there should be no whitespace on either side of the equality sign.
