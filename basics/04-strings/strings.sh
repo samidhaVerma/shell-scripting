@@ -33,3 +33,13 @@ if [[ $age =~ $pat ]]; then
 else
   echo "$age is not valid"
 fi
+
+# Entering input without being shown to the user
+
+read -sp "Enter the secret code: " secret
+
+if [ $secret == "password" ]; then
+  echo "Enter"
+else
+  echo "Wrong password"
+fi
